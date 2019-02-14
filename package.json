@@ -1,0 +1,38 @@
+{
+  "name": "tslib-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testRegex": "^.+\\.spec\\.ts$"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xc1427/tslib-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xc1427/tslib-example/issues"
+  },
+  "homepage": "https://github.com/xc1427/tslib-example#readme",
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  }
+}
