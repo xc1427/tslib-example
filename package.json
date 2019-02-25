@@ -1,6 +1,6 @@
 {
   "name": "tslib-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creating a TypeScript library with a minimal setup",
   "main": "lib/index.js",
   "files": [
@@ -25,7 +25,10 @@
   "repository": {
     "url": "git+https://github.com/xc1427/tslib-example.git"
   },
-  "keywords": ["ts", "typescript"],
+  "keywords": [
+    "ts",
+    "typescript"
+  ],
   "author": "Chen XI <xichen1427@gmail.com>",
   "license": "ISC",
   "bugs": {
