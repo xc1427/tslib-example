@@ -1,5 +1,5 @@
 {
-  "name": "tslib-example",
+  "name": "@xc1427/tslib-example",
   "version": "1.0.1",
   "description": "Creating a TypeScript library with a minimal setup",
   "main": "lib/index.js",
