@@ -1,7 +1,7 @@
 {
   "name": "tslib-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Creating a TypeScript library with a minimal setup",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -9,7 +9,8 @@
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "pub": "npm publish --access=public"
   },
   "jest": {
     "transform": {
@@ -22,11 +23,10 @@
     "testRegex": "^.+\\.spec\\.ts$"
   },
   "repository": {
-    "type": "git",
     "url": "git+https://github.com/xc1427/tslib-example.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["ts", "typescript"],
+  "author": "Chen XI <xichen1427@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/xc1427/tslib-example/issues"
